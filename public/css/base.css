@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
 body{
     margin:0;
     padding:0;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-weight: 400;
-    background-color:var(--primary-black-color);
+    background-color:var(--primary-white-color);
 }
 .container{
     margin: 0 auto;
