@@ -1,27 +1,27 @@
 // MAIN.JS FOR FRONT-END INTERACTION
 
 // Buttons
-const mexcButton = document.getElementById('mexc');
-const lbankButton = document.getElementById('lbank');
-const bybitButton = document.getElementById('bybit');
-const kucoinButton = document.getElementById('kucoin');
-const ourbitButton = document.getElementById('ourbit');
-const bitunixButton = document.getElementById('bitunix');
+const mexcButton = document.getElementById('mexc-btn');
+const lbankButton = document.getElementById('lbank-btn');
+const bybitButton = document.getElementById('bybit-btn');
+const kucoinButton = document.getElementById('kucoin-btn');
+const ourbitButton = document.getElementById('ourbit-btn');
+const bitunixButton = document.getElementById('bitunix-btn');
 
 // Spot Futures Buttons 
 const spotButton = document.getElementById('spot-btn');
 const futuresButton = document.getElementById('futures-btn');
 
 // Inputs
-const tickerInput = document.getElementById('ticker');
-const quantityInput = document.getElementById('quantity');
-const spreadInput = document.getElementById('spread');
+const tickerInput = document.getElementById('ticker-input');
+const quantityInput = document.getElementById('quantity-input');
+const spreadInput = document.getElementById('spread-input');
 
 // Start Button
 const startButton = document.getElementById('start-btn');
 
 // Result DIV for user
-const resultDiv = document.getElementById('result');
+const resultDiv = document.getElementById('result-div');
 
 // Spot Button
 spotButton.addEventListener('click' , async function () { // ??? need correction
