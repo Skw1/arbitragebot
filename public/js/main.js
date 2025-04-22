@@ -1,4 +1,25 @@
-// MAIN.JS FOR FRONT-END INTERACTION
+// main.js for Front-End Interaction
+
+// Settings:
+const mexcUserApiKey = document.getElementById('mexc-apikey-input');
+const mexcUserSecretKey = document.getElementById('mexc-secretkey-input');
+
+const lbankUserApiKey = document.getElementById('lbank-apikey-input');
+const lbankUserSecretKey = document.getElementById('lbank-secretkey-input');
+
+const bybitUserApiKey = document.getElementById('bybit-apikey-input');
+const bybitUserSecretKey = document.getElementById('bybit-secretkey-input');
+
+const kucoinUserApiKey = document.getElementById('kucoin-apikey-input');
+const kucoinUserSecretKey = document.getElementById('kucoin-secretkey-input');
+
+const ourbitUserApiKey = document.getElementById('ourbit-apikey-input');
+const ourbitUserSecretKey = document.getElementById('ourbit-secretkey-input');
+
+const biunixUserApiKey = document.getElementById('biunix-apikey-input');
+const biunixUserSecretKey = document.getElementById('biunix-secretkey-input');
+
+// Form:
 
 // Buttons
 const mexcButton = document.getElementById('mexc-btn');
@@ -78,6 +99,25 @@ startButton.addEventListener('click' , async function() {
 
     // Form Data
     const formData = new FormData();
+
+    // API Keys and Secret Keys
+    formData.append("mexcUserApiKey" ,  mexcUserApiKey);
+    formData.append("mexcUserSecretKey" ,  mexcUserSecretKey);
+
+    formData.append("lbankUserApiKey" ,  lbankUserApiKey);
+    formData.append("lbankUserSecretKey" ,  lbankUserSecretKey);
+
+    formData.append("bybitUserApiKey" ,  bybitUserApiKey);
+    formData.append("bybitUserSecretKey" ,  bybitUserSecretKey);
+
+    formData.append("kucoinUserApiKey" ,  kucoinUserApiKey);
+    formData.append("kucoinUserSecretKey" ,  kucoinUserSecretKey);
+
+    formData.append("ourbitUserApiKey" ,  ourbitUserApiKey);
+    formData.append("ourbitUserSecretKey" ,  ourbitUserSecretKey);
+
+    formData.append("biunixUserApiKey" ,  biunixUserApiKey);
+    formData.append("biunixUserSecretKey" ,  biunixUserSecretKey);
 
     // Symbols 
     formData.append("mexcSpotSymbol" ,  mexcSpotSymbol);
